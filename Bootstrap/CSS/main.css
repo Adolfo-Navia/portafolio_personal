@@ -1,25 +1,55 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .navbar-brand{
     font-size: 30;
-    justify-content: center
+    justify-content: center;
+}
+
+.h1{
+    font-size: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
 }
 
 .card{
     /*display: flex;
     justify-content: center;*/
     font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
+
+.card-body{
+    position: fixed;
+
+    /*bottom: 30;
+    right: 30;
+    width: 300px;*/
+}
+
 .header-content-center{
-    box-shadow: 10px 10px lightgray;
+    box-shadow: -1px 15px lightgray;
     display: flex;
     justify-content: center;
-    height: 500px;
-    width: 100%;
-    border-top: solid;
+    border-top: groove white;
     position: relative;
     left: 0px;
     top: 0px;
@@ -33,27 +63,36 @@ body{
     display: flex;
     justify-content: center;
     height: 500px;
-    width: 500;
-    
+    width: 500; 
 }
 
 .profile_image{
+    
     position: absolute;
     border-radius: 50%;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
 }
 
-
-.list-group-flush{
+.video{
     font-size: 20px;
-
+    max-width: 100%;
+    height: auto;
 }
 
-.list-group-items{
+.objetivo{
     padding: auto;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 22px;
 }
 
-.h1{
-    font-size: 50px;
-    
+.container-fluid{
+    padding: auto;
+}
+
+.h2{
+    padding: auto;
+    font-weight: 600;
+    font-size: 22px;
 }
