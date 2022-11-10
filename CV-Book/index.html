@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     
-    <!--ESTILOS FONTAWSOME-->
+    <!--ESTILOS FONTAWESOME-->
     <script src="https://kit.fontawesome.com/a20762829a.js" crossorigin="anonymous"></script>
     
     <!--ESTILOS DE BOOTSTRAP-->
@@ -34,25 +34,66 @@
         </header>
         TERMINA HEADER-->
     <!--IMG PROFILE AND BACKGROUND-->
-    <section class="header-content-center">
+    <!--<section class="header-content-center">-->
       <div class="background-profile">
-
-        <!--<img class="imagen-fondo" src="img/wp5187908-4k-black-wallpapers.jpg" alt="background-profile">-->
-        
+        <img class="imagen-fondo" src="img/wp5187908-4k-black-wallpapers.jpg" alt="background">
+        <img class="profile_image" src="img/Yo-Otra-png.png" alt="profile_image">
       </div>
-      <img class="profile_image" src="img/Yo-Otra-png.png" alt="profile_image">
-    </section>
+      
+    <!--</section>-->
     <br>
     <!--EMPIEZA SECC MULTIMEDIA-->
     <article class="row">
       <!--EMPIEZA VIDEO-->
-      <div class="column">
+      <article class="column">
         <section class="card sombra">
           <h5 class="card-header">
             <i class="fa-solid fa-clapperboard-play"></i>
-            <p class="sector">Video</p>
+            <!--<p>Video</p>-->
           </h5>
-          <section class="card-body">
+          <section class="card-body video">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://youtu.com/embed/WYhbA8EblsA" allowfullscreen></iframe>
+            </div>
+          </section>
+          <p class="bullets">
+            <h6>
+              <dl>
+                <p>Punto A</p>
+                <p>Punto B</p>
+                <p>Punto C</p>
+              </dl>
+            </h6>
+          </p>
+        </section>        
+      </article>
+      <!--EMPIEZA FOTO-->
+      <article class="column">
+        <section class="card sombra">
+          <h5 class="card-header">
+            <p>Photo</p>
+          </h5>
+          <section class="card-body foto">
+            <img src="img/HealthyVita-Bimbo.jpg" width="100%" height="auto">Texto descriptivo de la imagen</img>
+          <p class="bullets">
+            <h6>
+              <dl>
+                <p>A</p>
+                <p>Punto B</p>
+                <p>C</p>
+              </dl>
+            </h6>
+          </p>
+        </section>
+      </section>
+    </article>
+      <!--EMPIEZA 3D-->
+      <article class="column">
+        <section class="card sombra">
+          <h5 class="card-header">
+            <p>3 D</p>
+          </h5>
+          <section class="card-body 3d">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
             </div>
@@ -66,49 +107,8 @@
               </dl>
             </h6>
           </p>
-        </section>        
-      </div>
-      <!--EMPIEZA FOTO-->
-      <div class="column">
-        <section class="card sombra">
-          <h6 class="card-header">
-            <h2>Photo</h2>
-          </h6>
-          <div class="card-body">
-            <img src="img_girl.jpg" width="320" height="250">Texto descriptivo de la imagen</div>
-          <article class="bullets">
-            <h5>
-              <dl>
-                <p>A</p>
-                <p>Punto B</p>
-                <p>Punto C</p>
-              </dl>
-            </h5>
-          </article>
         </section>
-      </div>
-      <!--EMPIEZA 3D-->
-      <div class="column">
-        <div class="card sombra">
-          <div class="card-header">
-            <h2>3 D</h2>
-          </div>
-          <div class="card-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-            </div>
-          </div>
-          <article class="bullets">
-            <h5>
-              <dl>
-                <p>Punto A</p>
-                <p>Punto B</p>
-                <p>Punto C</p>
-              </dl>
-            </h5>
-          </article>
-        </div>
-      </div>
+      </article>
     </article>
     
 

@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'montserrat', sans-serif; 
 }
 
 .navbar{
@@ -8,7 +8,6 @@ body{
 
 .navbar-brand{
     font-size: 30;
-    justify-content: center;
 }
 
 .header-content-center{
@@ -25,30 +24,28 @@ body{
 .background-profile{
     /*position: relative;
     top: 0;
-    left: 0;
+    left: 0;*/
     display: flex;
-    justify-content: center;*/
+    justify-content: center;
     height: 500px;
-    width: 500px;
-    background-image: url("img/wp5187908-4k-black-wallpapers.jpg");
-    background-size: contain;
+    width: auto;
+    /*background-image: url("img/wp5187908-4k-black-wallpapers.jpg");
+    background-size: contain;*/
 }
 
-.profile_image{
-    
-    position: absolute;
+.profile_image{    
+    /*position: absolute;*/
     border-radius: 50%;
     justify-content: center;
     height: 500px;
     width: 500px;
 }
 
+/*SECC MULTIMEDIA*/
 .row{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 15px;
-    text-align: center;
 }
 
 .column{
@@ -76,13 +73,12 @@ body{
 }
 
 .card-header{
-    /*font-size:larger;*/
+    
 }
 
-/*.video{
-    font-size: 50px;
-   
-}*/
+.video{
+    padding: 0px;
+}
 
 .card-body{
     display: flex;
@@ -94,7 +90,9 @@ body{
     width: 300px;*/
 }
 
-
+.bullets{
+    font-size: 20px;
+}
 
 .objetivo{
     padding: auto;
@@ -112,18 +110,15 @@ body{
     font-size: 22px;
 }
 
-.sombra{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .imagen-fondo{
     width: 100%;
 }
 
-.bullets{
-    font-size: 20px;
+.h1{
+    font-size: 25px;
 }
 
-.h1{
-    font-size: 50px;
+foto{
+    width: 100%;
+  height: auto;
 }
