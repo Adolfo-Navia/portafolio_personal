@@ -11,30 +11,29 @@ body{
 }
 
 .header-content-center{
-    box-shadow: -1px 15px lightgray;
-    display: flex;
-    justify-content: center;
-    border-top: groove white;
-    /*position: relative;
+    
+    position: relative;
     left: 0px;
     top: 0px;
     z-index: -1;*/
 }
 
 .background-profile{
-    /*position: relative;
-    top: 0;
-    left: 0;*/
+    box-shadow: -1px 15px lightgray;
     display: flex;
+    justify-content: center;
+    border-top: groove white;
     justify-content: center;
     height: 500px;
     width: auto;
-    /*background-image: url("img/wp5187908-4k-black-wallpapers.jpg");
-    background-size: contain;*/
+    /*background-image: url("img/wp5187908-4k-black-wallpapers");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
 }
 
 .profile_image{    
-    /*position: absolute;*/
+    position: absolute;
     border-radius: 50%;
     justify-content: center;
     height: 500px;
@@ -48,7 +47,7 @@ body{
     justify-content: center;
 }
 
-.column{
+.col-sm-4{
     display: flex;
     justify-content: center;
     font-size: 15px;
@@ -81,7 +80,7 @@ body{
 }
 
 .card-body{
-    display: flex;
+    /*display: flex;*/
     flex-direction: row;
     justify-content: center
 
